@@ -52,7 +52,7 @@ git add . (elige todos los archivos de niveles inferiores)
 git commit -m "paquete de prueba"
 
 
-3 - Enviar el paquete a git (a la nube)
+3 - Enviar el paquete a github.com (a la nube)
 
 git push
 
@@ -77,5 +77,5 @@ cd (significa change directory, cambiar de directorio o carpeta)
 
 cd practicasDeHtml (baja a la carpeta practicasDeHtml)
 
-cd .. (sube un nivel, ej, si estabamos en C:\santi\practicas, nos deja en C:\santi. Si lo ejecutamos de nuevo nos deja en C:\, etc)
+cd .. (sube un nivel, ej, si estabamos en /c/santi/practicas, nos deja en /c/santi. Si lo ejecutamos de nuevo nos deja en /c, etc)
 
