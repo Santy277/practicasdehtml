@@ -1,0 +1,81 @@
+---------------------------
+Primeros pasos
+---------------------------
+
+- Ir a github.com y crear una cuenta
+
+- En github crear un repositrio (ej practicasdehml)
+
+- Ir a https://git-scm.com/downloads y bajar el Git para windows
+
+- Abrir el Git Bash
+
+- Pararse en el directorio en el cual vamos a trabajar (ej C:\Usuarios\santy\practicas)
+
+- Clonar un repositorio
+
+Esta opción lo crea con el nombre default (practicasdehtml)
+git clone https://github.com/Santy277/practicasdehtml.git
+
+Este comando lo crea con el nombre que elijamos
+git clone https://github.com/Santy277/practicasdehtml.git elnombrequeyoquiera
+
+- Configurar el git eligiendo nombre de usuario y mail
+git config --global user.name "Firstname Lastname"
+git config --global user.email "your_email@example.com"
+
+
+
+---------------------------
+Como bajar archivos de GIT
+--------------------------
+
+git pull
+
+---------------------------
+Como subir archivos a GIT
+--------------------------
+
+Nota: entre cada paso conviene ir ejecutando 'git status' para ver en que estado estamos
+
+1 - Elegir que archivos se van a mandar usando 'git add'
+
+Por ejemplo:
+
+git add prueba.txt
+
+git add . (elige todos los archivos de niveles inferiores)
+
+
+2 - Armar el 'paquete' con todos los archivos. A este paquete se le llama 'commit'. En español se le llama 'confirmaciones'
+
+git commit -m "paquete de prueba"
+
+
+3 - Enviar el paquete a github.com (a la nube)
+
+git push
+
+--------------------------
+Otros comandos útiles
+--------------------------
+- Para que git se actualice con las novedades que hay en la nube (y nos diga si alguien hizo commits que todavía no bajamos)
+
+git fetch
+
+- Para ver en que estado están los paquetes (si se les hizo add, commit, etc)
+
+git status
+
+
+
+- Para ver en que directorio/carpeta estamos parados
+pwd (significa print working directory, imprimir por pantalla directorio de trabajo)
+
+- Para cambiar de directorio
+cd (significa change directory, cambiar de directorio o carpeta)
+
+cd practicasDeHtml (baja a la carpeta practicasDeHtml)
+
+cd .. (sube un nivel, ej, si estabamos en /c/santi/practicas, nos deja en /c/santi. Si lo ejecutamos de nuevo nos deja en /c, etc)
+
