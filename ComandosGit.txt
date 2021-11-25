@@ -79,3 +79,4 @@ cd practicasDeHtml (baja a la carpeta practicasDeHtml)
 
 cd .. (sube un nivel, ej, si estabamos en /c/santi/practicas, nos deja en /c/santi. Si lo ejecutamos de nuevo nos deja en /c, etc)
 
+--
